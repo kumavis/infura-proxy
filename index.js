@@ -8,7 +8,7 @@ const ethUtil = require('ethereumjs-util')
 const SigningProvider = require('./signer.js')
 
 const PORT = process.env.PORT || 8545
-const PRIVATE_KEY = process.env.PRIVATE_KEY || '0x01e59d658778f5c5521625abd84a30f03a6b24ebbdcd4eddcdacf7fc6d163b03'
+const PRIVATE_KEY = process.env.PRIVATE_KEY
 if (!PRIVATE_KEY) throw new Error('Env var PRIVATE_KEY not specified.')
 const RPC_NODE = process.env.RPC_NODE || 'https://ropsten.infura.io/'
 if (!RPC_NODE) throw new Error('Env var RPC_NODE not specified.')
