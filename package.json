@@ -17,7 +17,7 @@
     "cors": "^2.8.1",
     "ethereumjs-util": "^5.0.1",
     "express": "^4.14.0",
-    "request": "^2.79.0",
+    "request": "^2.81.0",
     "web3-provider-engine": "^8.1.7"
   }
 }
